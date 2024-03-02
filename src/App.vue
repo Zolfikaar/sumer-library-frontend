@@ -1,6 +1,7 @@
 <script setup>
 import {ref} from 'vue'
 import Header from '@/components/Header.vue';
+import Topbar from '@/components/Topbar.vue';
 import { useRouter,RouterLink, RouterView } from 'vue-router'
 
 const router = useRouter()
@@ -14,6 +15,8 @@ router.beforeEach((to, from, next) => {
 </script>
 
 <template>
+  <Topbar />
+
   <Header v-if="showHeader"/>
 
   <RouterView />

@@ -44,8 +44,8 @@ onMounted(async  () => {
             <img :src="book.cover" alt="">
           </div> -->
           <h2 class="book__name">{{ book.title }}</h2>
-          <div class="author">Author: {{ book.author_id }}</div>
-          <div class="category">Category: {{ book.category_id }}</div>
+          <div class="author">Author: {{ book.author.name }}</div>
+          <div class="category">Category: {{ book.category.name }}</div>
           <div class="category">price: {{ book.sell_price }}</div>
           <div class="category">Year of Publish: {{ book.year }}</div>
         </router-link>
@@ -64,7 +64,6 @@ onMounted(async  () => {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  
 }
 .book{
   width: 280px;
@@ -76,7 +75,7 @@ onMounted(async  () => {
 }
 .book:hover{
   transition: all ease-in-out .1s;
-  box-shadow: 5px 4px 5px rgba(0,0,0,.3);
+  box-shadow: 0px 2px 20px rgba(0,0,0,.3);
   cursor: pointer;
 }
 </style>

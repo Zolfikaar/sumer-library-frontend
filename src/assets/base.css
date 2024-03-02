@@ -1,3 +1,8 @@
+:root{
+  --main-clr: #FF1616;
+  --border-clr: #EEE1E0;
+  --box-shadow: 0px 0px 40px 0px rgba(22, 22, 25, 0.1);
+}
 *,
 *::before,
 *::after {
@@ -31,3 +36,4 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(0, 0, 0, 0.02);
 }
+i{font-size: 1.5rem;color: #19110b;}
