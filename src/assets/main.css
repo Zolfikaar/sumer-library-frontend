@@ -1,0 +1,18 @@
+@import './base.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  transition: 0.4s;
+  padding: 3px;
+}
+
+
