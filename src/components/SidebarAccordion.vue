@@ -91,6 +91,7 @@ onMounted(async  () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all ease-in .3s;
 }
 .list .list__header:hover{
   cursor: pointer;

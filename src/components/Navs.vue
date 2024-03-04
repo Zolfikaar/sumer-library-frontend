@@ -16,7 +16,7 @@ import { RouterLink, RouterView } from 'vue-router'
 nav a{
   color: #19110b;
   margin: 0 10px;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 nav a:hover{color: var(--main-clr);}
 </style>
